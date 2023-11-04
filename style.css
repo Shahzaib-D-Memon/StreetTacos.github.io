@@ -1,0 +1,773 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* navbar css */
+body {
+  background-color: rgba(122, 191, 191, 0.5);
+}
+
+.Navbar {
+  width: 90%;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  border-bottom: 1px solid rgb(154, 154, 154);
+}
+.Navbar a {
+  text-decoration: none;
+}
+.Navbar ul {
+  list-style-type: none;
+}
+.logo-brand {
+  width: 12rem;
+}
+.logo-brand img {
+  height: 86%;
+}
+.nav-container {
+  display: flex;
+}
+.nav-list {
+  flex: 1;
+}
+.nav-list ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  align-items: center;
+}
+.nav-list-menu li {
+  padding: 0 10px;
+}
+.nav-list ul li img {
+  width: 40%;
+}
+.nav-list ul li h3 {
+  color: #eb5428;
+  font-weight: 900;
+  font-size: 1rem;
+}
+.Sign-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  margin-top: 4px;
+  height: 100px;
+}
+.Sign-in a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.headerTitleBox h1 {
+  background-color: #f2f2f2;
+  padding: 15px 0px;
+  font-size: 40px;
+}
+.Sign-in h3 {
+  margin-top: 5px;
+  color: #0d0d0d;
+  font-size: 16px;
+}
+.Sign-in i {
+  color: #eb5428;
+}
+.Search-bar {
+  align-items: center;
+  height: 100%;
+  justify-content: flex-end;
+  display: none;
+}
+.Search-bar input {
+  padding: 10px;
+  width: 40%;
+  height: 50%;
+  border-color: #eb5428;
+}
+.beero_section {
+  background-color: #f2f2f2;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Search-bar div {
+  height: 50%;
+  width: 2.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: White;
+  background-color: #eb5428;
+  font-weight: 100;
+}
+.small_screen_logo {
+  display: none;
+}
+.small-navbar-list {
+  display: none;
+}
+.small-navbar-list ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  align-items: center;
+  margin: 20px 0px;
+}
+.small-navbar-list ul li img {
+  width: 50%;
+}
+.small-navbar-list ul li h3 {
+  margin-top: 5px;
+  color: #eb5428;
+  font-weight: 900;
+  font-size: 1rem;
+}
+.main_title {
+  text-align: center;
+}
+.Search-bar1 {
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f2f2f2;
+  padding-top: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.Search-bar1 input {
+  padding: 10px;
+  width: 20%;
+  height: 50%;
+  border-color: #eb5428;
+}
+.Search-bar1 input:focus {
+  outline: none;
+}
+.Search-bar1 div {
+  height: 50%;
+  width: 2.7rem;
+  display: flex;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  justify-content: center;
+  align-items: center;
+  color: White;
+  background-color: #eb5428;
+  font-weight: 100;
+}
+.small_screen_items {
+  display: none;
+}
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .Search-bar1 {
+    display: none;
+  }
+}
+@media screen and (max-width: 599px) {
+  .small-navbar-list {
+    display: none !important;
+  }
+  .Search-bar1 input {
+    width: 40%;
+  }
+  .Search-bar {
+    display: none !important;
+  }
+  .headerTitleBox {
+    position: relative;
+    bottom: 7rem !important;
+  }
+
+  .streetTacos__section {
+    position: relative;
+    bottom: 4rem;
+  }
+
+  .logo-brand {
+    display: none;
+    margin-left: 10rem;
+  }
+  .Sign-in {
+    display: none;
+  }
+  .Navbar {
+    height: 70px !important;
+  }
+  .small_screen_items {
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu_det img {
+    width: 50px;
+  }
+  .menu_det h3 {
+    margin-top: -6px;
+    font-size: 16px;
+  }
+
+  .user_det img {
+    width: 50px;
+  }
+  .user_det h3 {
+    margin-left: 3px;
+    margin-top: -10px;
+    font-size: 16px;
+  }
+  .knife_det img {
+    height: 70px;
+    width: 200px;
+  }
+  .medium__title {
+    margin-top: 21px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .knife_det img {
+    width: 170px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .nav-list ul {
+    display: none !important;
+  }
+  .logo-brand {
+    width: 6rem;
+  }
+  .Search-bar {
+    display: flex;
+    position: relative;
+    bottom: 1rem;
+  }
+  .Search-bar input {
+    height: 30%;
+  }
+  .Search-bar div {
+    height: 42px;
+  }
+  .small-navbar-list {
+    position: relative;
+    bottom: 3rem;
+    display: block;
+    background-color: #fff;
+    padding: 1px !important;
+  }
+  .small-navbar-list img {
+    width: 30%;
+  }
+  .main_title {
+    margin-top: 5rem !important;
+    position: relative;
+    top: 3rem;
+  }
+  .streetTacos__section {
+    margin-top: 3rem !important;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100% I !important;
+  }
+}
+@media screen and (max-width: 757px) {
+}
+
+/* .streetTacos__section */
+
+.streetTacos__section {
+  width: 90%;
+
+  background-color: #fff;
+}
+.streetTacos__container {
+  display: flex;
+}
+.streetTacos__btns {
+  width: 10%;
+  border: 2px solid #eb5428;
+  height: 100vh;
+}
+.streetTacos__imgBox {
+  width: 40%;
+  height: 101vh;
+  background-image: url("Images/street-tacos.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.streetTacos__textBox {
+  width: 50%;
+  background-color: #f2f2f2;
+}
+.streetTacos__textBox p {
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  padding: 2rem;
+}
+.streetTacos__btns div a h5 {
+  color: #eb5428;
+  font-size: 1rem;
+}
+.streetTacos__btns div a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.streetTacos__btns-TabView {
+  display: none;
+}
+@media screen and (max-width: 962px) {
+  .streetTacos__textBox p {
+    line-height: 28px;
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .streetTacos__btns {
+    display: none;
+  }
+  .streetTacos__btns-TabView {
+    display: flex;
+    height: 16vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: rgba(220, 226, 231, 0.8);
+  }
+  .streetTacos__btns-TabView div {
+    margin: 0 2.5rem 0 2.5rem;
+  }
+  .streetTacos__container {
+    display: block;
+  }
+  .streetTacos__imgBox {
+    width: 100%;
+    height: 150vh;
+  }
+  .streetTacos__textBox {
+    width: 100%;
+  }
+  .streetTacos__btns div a svg {
+    height: 2rem;
+  }
+  .streetTacos__btns div a h5 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 546px) {
+  .streetTacos__btns div a svg {
+    height: 1.6rem;
+  }
+  .streetTacos__btns div a h3 {
+    font-size: 0.7rem;
+  }
+  .streetTacos__btns-TabView {
+    height: 20vh;
+  }
+  .streetTacos__btns-TabView div {
+    margin: 0 1rem 0 1rem;
+  }
+}
+@media screen and (max-width: 414px) {
+  .streetTacos__btns-TabView div {
+    margin: 0 1rem 0 1rem;
+  }
+  .streetTacos__btns div a svg {
+    height: 1.6rem;
+  }
+  .streetTacos__btns div a h3 {
+    font-size: 0.7rem;
+  }
+  .streetTacos__btns-TabView {
+    height: 18vh;
+  }
+  .streetTacos__btns-TabView {
+    background-color: #f2f2f2;
+  }
+  .streetTacos__imgBox {
+    height: 70vh !important;
+  }
+}
+@media screen and (max-width: 316px) {
+  .streetTacos__btns-TabView div {
+    margin: 0 0.9rem 0 0.9rem;
+  }
+}
+
+/* details css  */
+.section {
+  width: 90%;
+  background-color: #0d0d0d;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -1px;
+}
+.section1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+.details__title {
+  text-align: center;
+  padding-top: 5px !important;
+  margin-bottom: 3px !important;
+}
+
+.details {
+  display: flex;
+  padding-bottom: 10px;
+  justify-content: space-around;
+  color: #7abfbf;
+}
+
+/* MEDIUM */
+.medium__title {
+  text-align: center;
+}
+.section_medium {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+  text-align: center;
+  padding: 10px 5px;
+  margin-top: 10px !important;
+}
+
+.section__below {
+  width: 90%;
+  background-color: #f2f2f2;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  /* flex-wrap: wrap;/ */
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.ingrediants {
+  flex: 0.5;
+  margin-left: 2rem;
+}
+.details_title {
+  color: #7abfbf;
+  text-align: center;
+  padding: 10px;
+}
+.ingre__title {
+  margin-left: 10px;
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+}
+.ingrediants ul li {
+  line-height: 34px;
+}
+.directions {
+  flex: 2;
+}
+.direction_title {
+  text-align: center;
+  font-size: 23px;
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+}
+.direction_text p {
+  line-height: 30px;
+}
+
+@media screen and (max-width: 760px) {
+  .section {
+    display: none;
+  }
+  .section_medium {
+    width: 88.6%;
+    margin-top: 0 !important;
+    background-color: #f2f2f2;
+    display: block;
+    text-align: center;
+  }
+  .medium__title p {
+    margin-top: 10px !important;
+  }
+  .ingrediants ul li {
+    padding-right: 20px;
+  }
+  .directions {
+    padding: 5px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .medium__title {
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 10px;
+  }
+
+  .section__below {
+    display: flex;
+    flex-direction: column;
+  }
+  .section__below .ingre__title {
+    text-align: center;
+  }
+}
+
+.side_dishes {
+  /* font-family: 'Montserrat', sans-serif; */
+  width: 90%;
+  margin-top: 15px;
+  margin-left: auto;
+  background-color: #7abfbf;
+  margin-right: auto;
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-bottom: 1rem;
+}
+.all_dishes_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.dishes_title {
+  text-align: center;
+  padding: 15px;
+}
+
+.dishes_cards h3 {
+  font-size: 25px;
+  font-family: "Bebas Neue", sans-serif;
+}
+.dishes_cards p {
+  margin-top: 5px;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+.rating {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  margin-top: 5px;
+}
+.stars {
+  margin: 5px 0px 0px 7px;
+}
+.stars i {
+  cursor: pointer;
+  padding-left: 5px;
+  color: #eb5428;
+  text-shadow: 12px #fff;
+}
+.white_star {
+  color: #fff !important;
+}
+.third_rating {
+  position: relative;
+  top: 20px !important;
+}
+
+@media only screen and (min-width: 998px) and (max-width: 1150px) {
+  .dishes_cards img {
+    width: 200px;
+  }
+  .dishes_cards h3 {
+    font-size: 22px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 998px) {
+  .dishes_cards img {
+    width: 180px;
+  }
+  .all_dishes_cards {
+    padding: 10px;
+  }
+  .dishes_cards h3 {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 923px) {
+  .dishes_cards img {
+    width: 150px;
+  }
+  .dishes_cards h3 {
+    font-size: 18px;
+    font-family: "Bebas Neue", sans-serif;
+  }
+  .dishes_cards p {
+    font-size: 15px;
+    letter-spacing: 0;
+  }
+  .stars i {
+    font-size: 16px;
+    padding: 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dishes_cards img {
+    width: 100px;
+  }
+  .dishes_cards {
+    display: flex;
+    margin-top: 1.5rem;
+  }
+  .dish_details {
+    margin-left: 10px;
+  }
+  .dishes_cards h3 {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 667px) and (max-width: 713) {
+  .dishes_cards img {
+    width: 60px !important;
+    height: 30px;
+  }
+  .dishes_cards p {
+    font-size: 13px !important;
+    letter-spacing: 0;
+  }
+  .stars i {
+    font-size: 16px;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 703px) {
+  .all_dishes_cards {
+    display: block;
+    margin-left: 10px;
+    justify-content: start;
+  }
+}
+
+/* footer css */
+
+.footer__Section {
+  width: 90%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imgBox_footer img {
+  height: auto;
+  width: 12rem;
+  margin: 8px;
+}
+.img_text_footer {
+  width: 40%;
+  display: flex;
+}
+.footerMedia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #eb5428;
+}
+.footer_socialMedia {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+footer {
+  display: flex;
+}
+@media screen and (max-width: 1044px) {
+  .imgBox_footer img {
+    width: 11rem;
+  }
+  .textBox_footer h3 {
+    font-size: 1rem;
+  }
+  .footerMedia {
+    margin-left: 20px;
+    margin-left: 20px;
+  }
+  .img_text_footer,
+  .footer_socialMedia {
+    width: 50%;
+  }
+  .footerMedia svg {
+    height: 2rem;
+  }
+  .footerMedia h3 {
+    font-size: 1rem;
+  }
+  .footer_socialMedia {
+    margin-right: 2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .img_text_footer {
+    display: block;
+    text-align: center;
+  }
+  .imgBox_footer img {
+    width: 8rem;
+  }
+  .textBox_footer h3 {
+    font-size: 0.8rem;
+  }
+  .footer_socialMedia a svg {
+    height: 1.8rem;
+  }
+  .footer_socialMedia a h4 {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  footer {
+    flex-direction: column-reverse;
+  }
+  .img_text_footer,
+  .footer_socialMedia {
+    width: 100%;
+  }
+  .footer_socialMedia {
+    justify-content: center;
+    padding-bottom: 1rem;
+  }
+}
+
+/* fonts and sizes */
+
+h1,
+h2,
+h3,
+footer {
+  font-family: "Bebas Neue", cursive;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+}
+.ingrediants ul li {
+  font-family: "Montserrat", sans-serif;
+}
+.Sign-in a {
+  text-decoration: none;
+  color: #0d0d0d;
+}
+
+.streetTacos__btns div a h3 {
+  font-size: 16px;
+  color: #eb5428;
+}
+.direction_text p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400 !important;
+  padding: 10px;
+}
