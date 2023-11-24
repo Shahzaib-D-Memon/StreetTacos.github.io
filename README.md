@@ -1,2 +1,3 @@
-# StreetTacos.github.io
-A Street Tacos Food Store
+# Created a Tacos site using HTML, CSS and JS.
+
+# Live Demo:
